@@ -1,4 +1,4 @@
 locker/*
 node_modules/
 
-!somefolder/.gitkeep
+!locker/.gitkeep
