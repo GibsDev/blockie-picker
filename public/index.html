@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Wallet generator</h1>
+    <pre id="walletviewer" style="display: block;"></pre>
+    <br>
+    Limit: <input id="limit" type="text" value="20"></input>
+    <br>
+    Starts with: <input id="startswith" type="text" value=""></input>
+    <br>
+    Address contains: <input id="contains" type="text" value=""></input>
+    <br>
+    <button id="clear">clear</button>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+    <button id="save">save</button>
+    <div id="walletholder"></div>
+    <script src="/blockies.js"></script>
+    <script src="./socket.io.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

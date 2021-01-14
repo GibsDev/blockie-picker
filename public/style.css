@@ -1,0 +1,25 @@
+html {
+    color: #eee;
+    background: #333;
+    box-sizing: border-box;
+}
+
+#walletholder > * {
+    padding: 4px;
+}
+
+#walletholder > *.selected {
+    border: 2px solid #ff0;
+}
+
+div#wallets > div {
+    display: inline-block;
+    margin: 4px;
+}
+
+div#wallets > div > p {
+    display: inline-block;
+    max-width: 90px;
+    word-break: break-all;
+    margin: 4px;
+}

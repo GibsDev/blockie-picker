@@ -1,0 +1,19 @@
+{
+    "name": "blockie-picker",
+    "version": "0.0.1",
+    "description": "Generates Ethereum wallet information with corresponding blockies so you can pick your favorite",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GibsDev/blockie-picker.git"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "bip39": "^3.0.3",
+        "ethereumjs-wallet": "^0.6.3",
+        "express": "^4.17.1",
+        "socket.io": "^3.0.5"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}
