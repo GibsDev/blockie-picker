@@ -13,6 +13,9 @@ let id = 0;
 // Setup static file serve
 app.use(express.static('public'));
 
+// Serve client side script files from node modules
+app.use('/scripts', express.static(__dirname + "/node_modules/socket.io/client-dist/"));
+
 // Page for viewing wallets stored in the locker folder
 app.get('/locker', (req, res) => {
     let page = '';
