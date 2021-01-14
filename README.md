@@ -5,3 +5,15 @@ This is a quick and dirty NodeJS application that will allow you to generate eth
 Blockie generation in this project is possible thanks to a slightly modified version of blockies.js provided by https://github.com/ethereum/blockies.
 
 Wallet generation code (and inspiration for the project) thanks to the https://github.com/austintgriffith/eth.build project.
+
+## How to use
+
+- Download the files
+- Run `npm install`
+- Run `npm start` or run `node server.js`
+- Open your web browser to `localhost:3000`
+- Select your blockie parameters
+- Start
+- Click on blockies that you like and save them to your locker
+- View your saved blockies by visiting `localhost:3000/locker`
+- If you want to use one as a wallet, all of the wallet information can be found in JSON format in your `/locker` directory
