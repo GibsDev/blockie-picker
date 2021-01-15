@@ -24,6 +24,7 @@ app.get('/locker', (req, res) => {
     let files = fs.readdirSync(__dirname + '/locker');
     //console.log(files);
     for (let file of files) {
+        if(!file.endsWith('.json')) continue;
         let wallet = JSON.parse(fs.readFileSync(__dirname + '/locker/' + file));
         page += '<pre class="blockie" style="display: none">' + wallet.address + '</pre>';
     }
