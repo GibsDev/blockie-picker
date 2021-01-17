@@ -6,6 +6,8 @@ Blockie generation in this project is possible thanks to a slightly modified ver
 
 Wallet generation code (and inspiration for the project) thanks to the https://github.com/austintgriffith/eth.build project.
 
+![](screenshots/1.png)
+
 ## How to use
 
 - Download the files
